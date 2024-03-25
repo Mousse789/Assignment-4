@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.1.0",
+    "@craco/craco": "^5.9.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,18 +12,18 @@
     "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-      "start": "react-scripts start",
-      "start:craco": "craco start",
-      "build": "react-scripts build",
-      "build:craco": "craco build",
-      "test": "react-scripts test",
-      "test:craco": "craco test",
-      "eject": "react-scripts eject"
-  },  
+    "start": "react-scripts start",
+    "start:craco": "craco start",
+    "build": "react-scripts build",
+    "build:craco": "craco build",
+    "test": "react-scripts test",
+    "test:craco": "craco test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
